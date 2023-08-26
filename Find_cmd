@@ -1,1 +1,7 @@
-
+find ./foldername -name sample.txt 
+find ./GFG -name *.txt  , "pattern search"
+find ./GFG -name sample.txt -exec rm -i {} \; ,"deleting a file"
+find ./GFG -empty , "find empty files"
+find . -type d , "find directory"
+find ./ -type f -name "*.txt" -exec grep 'Geek'  {} \; , "search a text in multiple files"
+find ./GFG -perm 664 , find file by permissions
